@@ -1,3 +1,32 @@
 body {
-    background: #d1ecb4 url("assets/media/fresh-eats-logo.png");
+    background: #d1ecb4 url("../media/fresh-eats-logo.png");
+    background: url("../media/icons8-team-554108-unsplash.jpg");
+}
+
+.logo {
+    background-image: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(211, 206, 206);
+    color: rgb(255, 255, 255);
 }
